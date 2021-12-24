@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/slide.css">
+    <title>Slide</title>
+</head>
+
+<body>   
+<div class="slidescontainer">
+<!-- slides e textos -->
+<div class="pagSlide">
+  <p>Seu título 1</p>
+  <br>Texto 1</br>  
+</div>
+<div class="pagSlide">
+    <p>Seu título 2</p>
+    <br>Texto 2</br>  
+  </div>
+  <div class="pagSlide">
+    <p>Seu título 3</p>
+    <br>Texto 3</br>  
+  </div>
+
+<!-- botões anterior e próximo -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Indicadores/marcadores do slide -->
+<div class="dotscontainer">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+</div>  
+
+
+<script src="./js/slide.js"></script>
+</body>
+</html>
